@@ -1,14 +1,6 @@
 import pykorbit
 import time
-'''
-starttime = time.time()
-collecting_data = 0
-while (b < 10):
-    a = pykorbit.get_current_price("BTC")
-    print(a)
-    time.sleep(2)
-    b+=1
-'''
+
 class take_bit_coin_price():
     def __init__(self):
         self.price = pykorbit.get_current_price("BTC")
